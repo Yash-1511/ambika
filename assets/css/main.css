@@ -2237,14 +2237,41 @@ ol {
     width: 500px;
     display: block;
     border-radius: 50%;
-    background-image: url(../images/hero/04.jpg);
+    background-image: url(../images/hero2.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 5
-}
-
+    z-index: 5;
+  }
+  .hero-area .hero-image1 {
+      float: right;
+      margin-top: 200px;
+      height: 500px;
+      width: 500px;
+      display: block;
+      border-radius: 50%;
+      background-image: url(../images/hero6.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 5;
+    }
+    .hero-area .hero-image2 {
+      float: right;
+      margin-top: 200px;
+      height: 500px;
+      width: 500px;
+      display: block;
+      border-radius: 50%;
+      background-image: url(../images/hero7.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 5;
+    }
 .hero-area .hero-image::before {
     position: absolute;
     content: "";
