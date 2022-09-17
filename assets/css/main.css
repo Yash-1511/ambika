@@ -2188,7 +2188,7 @@ ol {
 
 .hero-area .hero-text {
     float: none;
-    margin-top: 275px
+    margin-top: 235px
 }
 
 .hero-area .hero-text h5 {
@@ -2232,7 +2232,7 @@ ol {
 
 .hero-area .hero-image {
     float: right;
-    margin-top: 200px;
+    margin-top: 150px;
     height: 500px;
     width: 500px;
     display: block;
@@ -2246,7 +2246,7 @@ ol {
   }
   .hero-area .hero-image1 {
       float: right;
-      margin-top: 200px;
+      margin-top: 150px;
       height: 500px;
       width: 500px;
       display: block;
@@ -2260,7 +2260,7 @@ ol {
     }
     .hero-area .hero-image2 {
       float: right;
-      margin-top: 200px;
+      margin-top: 150px;
       height: 500px;
       width: 500px;
       display: block;
@@ -5399,8 +5399,8 @@ blockquote span {
 }
 
 .footer .footer-middle {
-    padding-bottom: 120px;
-    padding-top: 90px
+    padding-bottom: 90px;
+    padding-top: 50px
 }
 
 .footer .single-footer {
@@ -6164,7 +6164,7 @@ blockquote span {
     }
 
     .footer .footer-middle {
-        padding-bottom: 70px;
+        padding-bottom: 60px;
         padding-top: 0
     }
 }
@@ -7096,7 +7096,7 @@ blockquote span {
     }
 
     .footer .footer-middle {
-        padding-bottom: 70px;
+        padding-bottom: 60px;
         padding-top: 0
     }
 }
