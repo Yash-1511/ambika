@@ -1,0 +1,21 @@
+Bearings
+- Ball Bearings
+- Tapered roller bearings
+- Spherical roller bearings
+- Angular Contact Ball Bearings
+- Double roller bearings
+- Linear bearings
+
+Roller chain
+Linear guideways
+PLUMMER BLOCKS
+Pneumatics
+Hard Chrome Shaft
+
+[] changes in about page
+[] changes in navbar and footer in every page
+[] make product pages
+[] bearing product page
+[] change in home page galley
+[] make brand slider
+[] make client slider

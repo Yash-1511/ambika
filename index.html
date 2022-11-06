@@ -42,6 +42,22 @@
             cursor: pointer;
             display: none !important;
         }
+        .dropdown-menu li {
+position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
+}
     </style>
 </head>
 
@@ -78,20 +94,38 @@
                                             Our Products
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="services.html">Bearings</a></li>
-                                            <li><a class="dropdown-item" href="service-single.html">Ball Screw</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="service-single.html">Linear Guideways</a>
-                                            </li>
-                                            <li><a class="dropdown-item" href="service-single.html">Shaft</a>
+                                            <li><a class="dropdown-item" role="button" href="#">Bearings &raquo;</a>
+                                                <ul class="dropdown-menu dropdown-submenu">
+                                                    <li>
+                                                      <a class="dropdown-item" href="#">Ball Bearings</a>
+                                                    </li>
+                                                    <li>
+                                                      <a class="dropdown-item" href="#">Tapered roller bearings</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item" href="#">Spherical roller bearings</a>
+                                                      </li>
+                                                      <li>
+                                                        <a class="dropdown-item" href="#">Angular Contact Ball Bearings</a>
+                                                      </li>
+                                                      <li>
+                                                        <a class="dropdown-item" href="#">Double roller bearings</a>
+                                                      </li>
+                                                      <li>
+                                                        <a class="dropdown-item" href="#">Linear bearings</a>
+                                                      </li>
+                                                  </ul>
                                             </li>
                                             <li><a class="dropdown-item" href="service-single.html">Roller Chains</a>
                                             </li>
-                                            <li><a class="dropdown-item" href="service-single.html">Pillow Block,<br>
-                                                    Pedestaland Sleeves</a>
+                                            <li><a class="dropdown-item" href="service-single.html">Linear guideways</a>
                                             </li>
-                                            <li><a class="dropdown-item" href="service-single.html">Zero Backlash<br>
-                                                    Jaw Coupling</a>
+                                            <li><a class="dropdown-item" href="service-single.html">Plummer Blocks</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="service-single.html">Pneumatics</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="service-single.html">Hard Chrome
+                                                    Shaft</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -224,7 +258,7 @@
             </div>
         </div>
     </section>
-  
+
 
 
     <section class="about-us section">
@@ -380,8 +414,8 @@
                         </div>
                         <div class="portfolio-overlay">
                             <div class="pf-content">
-                                <span class="category">Web Design</span>
-                                <h4><a href="portfolio-single.html">Best Web Design in 2023</a></h4>
+                                <span class="category">Shaft</span>
+                                <h4><a href="portfolio-single.html">Best Linear shaft designing</a></h4>
                             </div>
                         </div>
                     </div>
@@ -406,8 +440,8 @@
                         </div>
                         <div class="portfolio-overlay">
                             <div class="pf-content">
-                                <span class="category">Web Design</span>
-                                <h4><a href="portfolio-single.html">Best Web Design in 2023</a></h4>
+                                <span class="category">Shaft</span>
+                                <h4><a href="portfolio-single.html">Best Shaft Solutions</a></h4>
                             </div>
                         </div>
                     </div>
@@ -419,8 +453,8 @@
                         </div>
                         <div class="portfolio-overlay">
                             <div class="pf-content">
-                                <span class="category">Graphic Design</span>
-                                <h4><a href="portfolio-single.html">Best Graphic Design in 2023</a></h4>
+                                <span class="category">Roller Chains</span>
+                                <h4><a href="portfolio-single.html">Roller Chains Designing</a></h4>
                             </div>
                         </div>
                     </div>
@@ -452,19 +486,17 @@
                             <img src="assets/images/clients/client1.png" alt="Brand Logo Images">
                         </div>
                         <div class="single-image">
-                            <img src="assets/images/clients/client2.png" alt="Brand Logo Images">
+                            <img src="assets/images/clients/client2.gif" alt="Brand Logo Images">
                         </div>
                         <div class="single-image">
-                            <img src="assets/images/clients/client3.png" alt="Brand Logo Images">
+                            <img src="assets/images/clients/client3.png" width="100" height="100"
+                                alt="Brand Logo Images">
                         </div>
                         <div class="single-image">
                             <img src="assets/images/clients/client4.png" alt="Brand Logo Images">
                         </div>
                         <div class="single-image">
-                            <img src="assets/images/clients/client5.png" alt="Brand Logo Images">
-                        </div>
-                        <div class="single-image">
-                            <img src="assets/images/clients/client6.png" alt="Brand Logo Images">
+                            <img src="assets/images/clients/client5.jpg" alt="Brand Logo Images">
                         </div>
                     </div>
                 </div>
@@ -483,7 +515,8 @@
                             <div class="logo">
                                 <a href="index.html"><img src="assets/images/logo/logo1.png" alt="Logo"></a>
                             </div>
-                            <p>Start building your creative website with our awesome template Bold.</p>
+                            <p> 41, pushpak industrial association Near j.b.packaging Nikatube compound, near piyush
+                                trading company, G.i, d.c, Phase I, Vatva, Ahmedabad, Gujarat 382445</p>
                             <div class="footer-social">
                                 <ul>
                                     <li><a href="#"><i class="lni lni-facebook-original"></i></a></li>
@@ -503,9 +536,9 @@
                                     <h3>Pages</h3>
                                     <ul>
                                         <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Our Services</a></li>
-                                        <li><a href="#">Contact Us</a></li>
+                                        <li><a href="#">Our Products</a></li>
                                         <li><a href="#">Our Blog</a></li>
+                                        <li><a href="#">Contact Us</a></li>
                                     </ul>
                                 </div>
 
@@ -515,10 +548,10 @@
                                 <div class="single-footer sm-custom-border f-link">
                                     <h3>Product</h3>
                                     <ul>
-                                        <li><a href="#">Features</a></li>
-                                        <li><a href="#">Pricing</a></li>
-                                        <li><a href="#">News</a></li>
-                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Bearings</a></li>
+                                        <li><a href="#">Ball Screw</a></li>
+                                        <li><a href="#">Linear Guideways</a></li>
+                                        <li><a href="#">Shaft</a></li>
                                     </ul>
                                 </div>
 
@@ -526,12 +559,12 @@
                             <div class="col-lg-3 col-md-6 col-12">
 
                                 <div class="single-footer md-custom-border sm-custom-border f-link">
-                                    <h3>Services</h3>
+                                    <h3></h3>
                                     <ul>
-                                        <li><a href="#">Digital Marketing</a></li>
-                                        <li><a href="#">Content Writing</a></li>
-                                        <li><a href="#">SEO for Business</a></li>
-                                        <li><a href="#">UI Design</a></li>
+                                        <li><a href="#">Roller Chains</a></li>
+                                        <li><a href="#">Pillow Block</a></li>
+                                        <li><a href="#">Zero Backlash</a></li>
+                                        <li><a href="#">Jaw Coupling</a></li>
                                     </ul>
                                 </div>
 
