@@ -7311,6 +7311,50 @@ blockquote span {
     opacity: .2
 }
 
+/* client section css */
+
+.client-logo-section {
+    background: #f9faff;
+    padding: 50px 0
+}
+
+.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo {
+    padding: 10px;
+    text-align: center;
+    margin: auto
+}
+
+.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
+    max-width: 220px;
+    width: 100%;
+    opacity: .3;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img:hover {
+    opacity: 1
+}
+
+.client-logo-section .client-logo-wrapper .client-logo-carousel2 .client-logo {
+    padding: 10px;
+    text-align: center;
+    margin: auto
+}
+
+.client-logo-section .client-logo-wrapper .client-logo-carousel2 .client-logo img {
+    max-width: 220px;
+    width: 100%;
+    opacity: .3;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s
+}
+
+.client-logo-section .client-logo-wrapper .client-logo-carousel2 .client-logo img:hover {
+    opacity: 1
+}
+
+
 .error-area .verticle-lines .vlines.one {
     left: 20%;
     -webkit-animation-delay: 1s;

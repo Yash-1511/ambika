@@ -6,6 +6,62 @@
     document.querySelector(".preloader").style.opacity = "0";
     document.querySelector(".preloader").style.display = "none";
   }
+
+    
+    tns({
+      container: '.client-logo-carousel',
+      slideBy: 'page',
+      autoplay: true,
+      autoplayButtonOutput: false,
+      mouseDrag: true,
+      gutter: 15,
+      nav: false,
+      controls: false,
+      responsive: {
+          0: {
+              items: 1,
+          },
+          540: {
+              items: 2,
+          },
+          768: {
+              items: 3,
+          },
+          992: {
+              items: 4,
+          },
+          1170: {
+              items: 6,
+          }
+      }
+  });
+  tns({
+    container: '.client-logo-carousel2',
+    slideBy: 'page',
+    autoplay: true,
+    autoplayButtonOutput: false,
+    mouseDrag: true,
+    gutter: 15,
+    nav: false,
+    controls: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        540: {
+            items: 2,
+        },
+        768: {
+            items: 3,
+        },
+        992: {
+            items: 4,
+        },
+        1170: {
+            items: 6,
+        }
+    }
+});
   window.onscroll = function () {
     var header_navbar = document.querySelector(".header-inner");
     var sticky = header_navbar.offsetTop;
